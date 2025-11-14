@@ -1,0 +1,25 @@
+body {
+  font-family: "Noto Serif", serif;
+  color: rgb(15, 15, 15);
+  background-color: rgb(245, 240, 240);
+}
+
+main {
+  max-width: 70%;
+  margin: auto;
+}
+
+header {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(245, 240, 240, 1) 100%),
+    url(https://symondsresearch.com/wp-content/uploads/2019/04/writing-for-web-training-materials.jpg);
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+.columns {
+  column-count: 3;
+  column-gap: 15px;
+  column-rule: solid 1px rgb(169, 169, 169);
+}
